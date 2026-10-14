@@ -324,6 +324,7 @@ def validate_answer(user, correct):
 
 # Main App
 def main():
+    st.set_page_config(page_title="Ze Base Converter")
     load_css()
     st.title("ZE BASE: Number Base Converter")
     main_tabs()
