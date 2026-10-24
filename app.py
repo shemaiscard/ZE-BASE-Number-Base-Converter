@@ -203,7 +203,7 @@ def educational_mode_tab():
                 "Hex": [f"{i:X}" for i in range(16)],
                 "Binary": [f"{i:04b}" for i in range(16)]
             })
-            st.dataframe(hex_table, use_container_width=True)
+            st.dataframe(hex_table, width="stretch")
 
         elif concept == "Fractional Conversions":
             st.markdown("""
